@@ -1,0 +1,35 @@
+{
+  "name": "@dlovely/core",
+  "version": "1.0.0",
+  "description": "dlovely-core package for others in units",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./utils": "./src/utils/index.ts",
+    "./utils/*": "./src/utils/*.ts",
+    "./number": "./src/number/index.ts",
+    "./number/*": "./src/number/*.ts",
+    "./string": "./src/string/index.ts",
+    "./string/*": "./src/string/*.ts",
+    "./boolean": "./src/boolean/index.ts",
+    "./boolean/*": "./src/boolean/*.ts",
+    "./array": "./src/array/index.ts",
+    "./array/*": "./src/array/*.ts",
+    "./object": "./src/object/index.ts",
+    "./object/*": "./src/object/*.ts",
+    "./function": "./src/function/index.ts",
+    "./function/*": "./src/function/*.ts",
+    "./symbol": "./src/symbol/index.ts",
+    "./symbol/*": "./src/symbol/*.ts",
+    "./set": "./src/set/index.ts",
+    "./set/*": "./src/set/*.ts",
+    "./map": "./src/map/index.ts",
+    "./map/*": "./src/map/*.ts",
+    "./promise": "./src/promise/index.ts",
+    "./promise/*": "./src/promise/*.ts"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.5"
+  },
+  "license": "MIT"
+}
