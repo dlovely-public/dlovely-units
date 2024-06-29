@@ -398,6 +398,10 @@
     //   "reviewCategory": "tools",
     //   "tags": [ "tools" ]
     // }
+    {
+      "packageName": "@dlovely/core",
+      "projectFolder": "tools/core"
+    }
   ],
   "ensureConsistentVersions": true
 }
