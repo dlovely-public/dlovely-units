@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "strict": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+
+    "noEmit": true,
+    "types": [],
+    "paths": {}
+  },
+  "include": ["src/**/*.ts"]
+}
