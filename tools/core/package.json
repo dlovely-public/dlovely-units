@@ -1,8 +1,11 @@
 {
   "name": "@dlovely/core",
   "version": "1.0.0",
-  "description": "dlovely-core package for others in units",
+  "description": "dlovely-core package for others in packages",
   "type": "module",
+  "scripts": {
+    "check:type": "tsc --noEmit"
+  },
   "exports": {
     ".": "./src/index.ts",
     "./utils": "./src/utils/index.ts",
@@ -26,7 +29,8 @@
     "./map": "./src/map/index.ts",
     "./map/*": "./src/map/*.ts",
     "./promise": "./src/promise/index.ts",
-    "./promise/*": "./src/promise/*.ts"
+    "./promise/*": "./src/promise/*.ts",
+    "./global": "./global.d.ts"
   },
   "peerDependencies": {
     "typescript": ">=5.5"
