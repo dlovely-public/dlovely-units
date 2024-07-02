@@ -1,0 +1,22 @@
+{
+  "name": "@dlovely/define",
+  "version": "1.0.0",
+  "description": "dlovely-provide some define for others in packages",
+  "type": "module",
+  "exports": {
+    "./define": "./src/define.ts",
+    "./assign": "./src/assign.ts",
+    "./global": "./src/types.d.ts"
+  },
+  "scripts": {
+    "check:type": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/bun": "^1.1.6"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.5"
+  },
+  "license": "MIT"
+}
