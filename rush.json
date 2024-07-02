@@ -173,7 +173,7 @@
      * you might configure your system's trigger to look for a special string such as "[skip-ci]"
      * in the commit message, and then customize Rush's message to contain that string.
      */
-    // "versionBumpCommitMessage": "Bump versions [skip ci]",
+    "versionBumpCommitMessage": "release [skip ci]"
     /**
      * The commit message to use when committing changes during 'rush version'.
      *
@@ -401,6 +401,14 @@
     {
       "packageName": "@dlovely/core",
       "projectFolder": "tools/core"
+    },
+    {
+      "packageName": "@dlovely/define",
+      "projectFolder": "tools/define"
+    },
+    {
+      "packageName": "@dlovely/utils",
+      "projectFolder": "packages/utils"
     }
   ],
   "ensureConsistentVersions": true
